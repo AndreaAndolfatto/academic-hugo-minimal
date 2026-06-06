@@ -37,6 +37,13 @@ params:
   # --- Google Analytics (leave empty to disable) ---
   googleAnalyticsID: ""
 
+outputs:
+  home: ["HTML", "RSS"]
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+
 markup:
   goldmark:
     renderer:
