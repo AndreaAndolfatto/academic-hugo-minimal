@@ -34,7 +34,8 @@ cd academic-hugo-minimal
 # 2. Edit hugo.yaml with your information (see Customization below)
 
 # 3. Add your photo
-cp /path/to/your/photo.jpg static/images/avatar.svg
+cp /path/to/your/photo.jpg static/images/avatar.jpg
+# Then update layouts/index.html line 5: change avatar.svg → avatar.jpg
 # (or keep as .jpg and update layouts/index.html line 5)
 
 # 4. Add your CV
@@ -90,9 +91,11 @@ Edit the markdown list directly.
 
 Replace email and office address.
 
-### 5. Photo — `static/images/avatar.svg`
+### 5. Photo — `static/images/`
 
-Replace with your own photo. The template uses `avatar.svg` by default; to use a JPEG rename it `avatar.jpg` and update `layouts/index.html` line 5 accordingly.
+Replace `avatar.svg` with your own photo. To use a JPEG:
+1. Copy your photo to `static/images/avatar.jpg`
+2. In `layouts/index.html` line 5, change `avatar.svg` → `avatar.jpg`
 
 ### 6. CV — `static/files/CV.pdf`
 
