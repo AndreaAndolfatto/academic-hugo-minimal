@@ -1,6 +1,8 @@
 # academic-hugo-minimal
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Hugo](https://img.shields.io/badge/Hugo-Extended_v0.120+-blue.svg)](https://gohugo.io/)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AndreaAndolfatto/academic-hugo-minimal)
 
 A minimal, responsive Hugo theme for academic personal websites.
 
