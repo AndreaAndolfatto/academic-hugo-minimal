@@ -1,6 +1,8 @@
 # academic-hugo-minimal
 
-A minimal, responsive Hugo theme for academic personal websites (PhD students, postdocs, faculty).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A minimal, responsive Hugo theme for academic personal websites.
 
 **Live demo:** [andreaandolfatto.com](https://andreaandolfatto.com)
 
